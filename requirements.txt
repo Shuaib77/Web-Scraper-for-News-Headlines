@@ -1,0 +1,23 @@
+# News Headlines Web Scraper - Requirements
+# External packages required for web scraping functionality
+
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Installation commands:
+# pip install requests beautifulsoup4 lxml
+# or
+# pip install -r requirements.txt
+
+# Package descriptions:
+# requests - For making HTTP requests to websites
+# beautifulsoup4 - For parsing HTML and extracting data
+# lxml - Fast XML and HTML parser (optional but recommended)
+
+# Python version: 3.6+
+# Standard libraries also used:
+# - time (delays between requests)
+# - os (file system operations) 
+# - datetime (timestamp generation)
+# - json (structured data export)
